@@ -1,0 +1,123 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #050f9c;
+    color: #fff;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;/* Center contents horizontally */
+    position: relative;
+
+}
+
+/* wrapper to center the title */
+.header-content {
+    display: flex;
+    flex: 1;
+    justify-content: center; /* Center title horizontally within the header */
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+/* Ensure the logo container stays on the left */
+.logo-container {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    left: 0.5rem; /* Adjust spacing from the left */
+    right:0;
+}
+
+.logo {
+    max-height: 95px;
+    margin: 0; /* Remove any margin */
+    padding: 0;/* Remove any padding */
+}
+
+.logo-text {
+    margin-left: 0;
+    font-size: 0.85rem;
+    color:gold;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: rem;
+    text-align: center;
+    /* Center text horizontally within its container */
+}
+
+.nav-container {
+    background: #54acdc; /* Different background color for the nav container */
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Center navigation items horizontally */
+}
+
+nav ul li {
+    margin: 0 1rem;
+    /* Adjust spacing between items */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.underline {
+    text-decoration: underline; /* Underline the text */
+}
+
+footer {
+    background: #050f9c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
